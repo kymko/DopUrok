@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/recyclerFragment">
+
+    <fragment
+        android:id="@+id/recyclerFragment"
+        android:name="kg.geektech.dopurok.ui.fragments.recyclerFragment"
+        android:label="fragment_recycler"
+        tools:layout="@layout/fragment_recycler" />
+
+    <fragment
+        android:id="@+id/senBundlFragment"
+        android:name="kg.geektech.dopurok.ui.fragments.senBundlFragment"
+        android:label="fragment_sen_bundl"
+        tools:layout="@layout/fragment_sen_bundl" />
+
+    <fragment
+        android:id="@+id/sendBundleFragment"
+        android:name="kg.geektech.dopurok.ui.fragments.SendBundleFragment"
+        android:label="fragment_send_bundle"
+        tools:layout="@layout/fragment_send_bundle" />
+</navigation>
